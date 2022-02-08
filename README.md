@@ -228,7 +228,7 @@ Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便
 
 ## 实际演示网站
 
-[https://www.bizzan.com](https://www.bizzan.com)
+[https://www.bizzan.org](https://www.bizzan.org)
 
 这个是给客户做的，但是后来客户不运营了，所以遗留了这个网站，因为我没有服务器权限，所以这个网站随时可能无法访问。
 
