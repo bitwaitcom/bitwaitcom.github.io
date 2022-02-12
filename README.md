@@ -176,7 +176,7 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便利性巧妙地简化了分布式系统基础设施的开发，如服务发现注册、配置中心、消息总线、负载均衡、断路器、数据监控等，都可以用Spring Boot的开发风格做到一键启动和部署。Spring Cloud并没有重复制造轮子，它只是将各家公司开发的比较成熟、经得起实际考验的服务框架组合起来，通过Spring Boot风格进行再封装屏蔽掉了复杂的配置和实现原理，最终给开发者留出了一套简单易懂、易部署和易维护的分布式系统开发工具包。
 一般而言，一个完整的SpringCloud框架应该如下图所示：
 
-![SpringCloud框架图]![系统构架](%E7%AE%80%E4%BB%8B.png)
+![SpringCloud框架图]![系统构架](pic/%E7%AE%80%E4%BB%8B.png)
 
 如果对SpringCloud尚不熟悉，可以先简单学习一下SpringCloud的相关教程，这样再回来看本项目，会更加容易上手。
 提醒一下，因为Springcloud框架图中是完整的架构，在开发的时候，我们会适当的裁剪一些内容，从而让开发和部署更加快速，所以有一些出入的地方。
@@ -448,7 +448,7 @@ spring.jpa.hibernate.ddl-auto=update
 下图是用户充值监控逻辑的简要说明图，简单看看就行：
 
 ![充值逻辑](https://images.gitee.com/uploads/images/2020/0327/162223_5d418523_2182501.png "13981024-76374161aedf70d6.png")
-![系统后台]![系统后台](pic6.png)
+![系统后台]![系统后台](pic/6.png)
 ![代理后台]![代理后台]![输入图片说明](pic/%E4%BB%A3%E7%90%86%E5%90%8E%E5%8F%B0.png)
 
 ## 特别注意
