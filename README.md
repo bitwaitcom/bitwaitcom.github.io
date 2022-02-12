@@ -448,84 +448,8 @@ spring.jpa.hibernate.ddl-auto=update
 下图是用户充值监控逻辑的简要说明图，简单看看就行：
 
 ![充值逻辑](https://images.gitee.com/uploads/images/2020/0327/162223_5d418523_2182501.png "13981024-76374161aedf70d6.png")
-
-
-## 系统展示（PC前端）
-
-![首页](https://images.gitee.com/uploads/images/2020/0327/135803_75ec9a0b_2182501.png "01_首页.png")
-
-![币币交易](https://images.gitee.com/uploads/images/2020/0327/135834_4a5fb1c4_2182501.png "02_币币交易.png")
-
-![法币交易](https://images.gitee.com/uploads/images/2020/0327/135902_a7286b9c_2182501.png "03_法币交易CTC.png")
-
-![登录](https://images.gitee.com/uploads/images/2020/0322/193759_edc5dc7b_2182501.png "图片5.png")
-
-![活动/创新实验室](https://images.gitee.com/uploads/images/2020/0327/135930_0c02d004_2182501.png "04_创新实验室.png")
-
-![创新实验室详情](https://images.gitee.com/uploads/images/2020/0327/140037_074a81a4_2182501.png "创新实验室详情.png")
-
-![推广合伙人](https://images.gitee.com/uploads/images/2020/0327/140003_9b962fe7_2182501.png "07_推广合伙人.png")
-
-![公告](https://images.gitee.com/uploads/images/2020/0322/193852_3ad12a6f_2182501.png "图片8.png")
-
-![帮助](https://images.gitee.com/uploads/images/2020/0322/193902_ef09925e_2182501.png "图片9.png")
-
-## 系统运行展示（APP前端）
-
-![首页](https://images.gitee.com/uploads/images/2020/0322/193927_9940ca7c_2182501.jpeg "图片10.jpg")
-
-![行情](https://images.gitee.com/uploads/images/2020/0322/193941_ff5a16a2_2182501.jpeg "图片11.jpg")
-
-![K线](https://images.gitee.com/uploads/images/2020/0322/193951_abf7b5b6_2182501.jpeg "图片12.jpg")
-
-![交易](https://images.gitee.com/uploads/images/2020/0322/194003_d14a772a_2182501.jpeg "图片13.jpg")
-
-![个人中心](https://images.gitee.com/uploads/images/2020/0322/194021_a047d3a5_2182501.jpeg "图片14.jpg")
-
-![个人资产管理](https://images.gitee.com/uploads/images/2020/0322/194059_faeeeb4a_2182501.jpeg "图片15.jpg")
-
-![邀请管理](https://images.gitee.com/uploads/images/2020/0322/194112_7ae11b00_2182501.jpeg "图片16.jpg")
-
-## 手机Web端部分页面
-
-![APP下载](https://images.gitee.com/uploads/images/2020/0325/130921_7d8dee06_2182501.jpeg "12.jpg")
-
-![抢红包](https://images.gitee.com/uploads/images/2020/0325/130936_18809c8f_2182501.jpeg "11.jpg")
-
-![活动/创新实验室](https://images.gitee.com/uploads/images/2020/0325/130948_e36b562d_2182501.jpeg "13.jpg")
-
-
-## 系统运行展示（后端）
-
-![登录](https://images.gitee.com/uploads/images/2020/0322/194251_9b5293ff_2182501.png "图片17.png")
-
-![首页](https://images.gitee.com/uploads/images/2020/0322/194305_f83e4f90_2182501.png "图片18.png")
-
-![用户管理](https://images.gitee.com/uploads/images/2020/0322/194321_73eb8f58_2182501.png "图片19.png")
-
-![邀请管理](https://images.gitee.com/uploads/images/2020/0322/194337_fd257186_2182501.png "图片20.png")
-
-![法币交易订单管理](https://images.gitee.com/uploads/images/2020/0322/194406_ebe7328d_2182501.png "图片21.png")
-
-![首页Banner管理](https://images.gitee.com/uploads/images/2020/0322/194433_4fb39b0a_2182501.png "图片22.png")
-
-![交易对管理](https://images.gitee.com/uploads/images/2020/0322/194450_1eb7bb6f_2182501.png "图片23.png")
-
-![活动管理](https://images.gitee.com/uploads/images/2020/0322/194505_204d23ce_2182501.png "图片24.png")
-
-![红包管理](https://images.gitee.com/uploads/images/2020/0322/194531_e12eb93a_2182501.png "图片25.png")
-
-![币种管理](https://images.gitee.com/uploads/images/2020/0322/194618_fe17409a_2182501.png "图片26.png")
-
-![OTC管理，后端开发完成，前端未对接](https://images.gitee.com/uploads/images/2020/0322/194654_bd0acbe7_2182501.png "图片27.png")
-
-## APP下载图片示例
-
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182826_f0617759_2182501.png "download1.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182834_7a82f8a8_2182501.png "download2.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182840_c3d08fb7_2182501.png "download3.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182850_8b19fe57_2182501.png "download4.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182856_9206a79a_2182501.png "download5.png")
+![系统后台]![系统后台](pic6.png)
+![代理后台]
 
 ## 特别注意
 
