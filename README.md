@@ -12,7 +12,7 @@
 
 ## 基于ETH发行ERC20代币可参考：
 
-[https://gitee.com/ethergo/ether-erc20-token](https://gitee.com/ethergo/ether-erc20-token)  
+[https://gitee.com/bitwait/ether-erc20](https://gitee.com/bitwait/ether-erc20)  
 收集了431个基于以太坊发行的ERC20代币源码，基本上能找到各种业务模型的ERC20代币业务模型
 
 ## 2022/1/07 稳定版更新公示： 
