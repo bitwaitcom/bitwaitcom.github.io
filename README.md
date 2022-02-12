@@ -111,7 +111,7 @@
 ![永续合约]
 二元期权/预测合约
 ![二元期权/预测合约]
-![输入图片说明](11.png)
+![预览](pic/11.png)
 
 
 ## 简要介绍
@@ -124,9 +124,9 @@
 - 原生苹果APP源码 
 - 币种钱包RPC源码 
  
-![PC]![pc版预览](22.png)
+![PC]![pc版预览](pic/22.png)
 
-![APP]![app版预览](shouji.png)
+![APP]![app版预览](pic/shouji.png)
 
 
 ## 部署文档（超详细版）
@@ -449,7 +449,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ![充值逻辑](https://images.gitee.com/uploads/images/2020/0327/162223_5d418523_2182501.png "13981024-76374161aedf70d6.png")
 ![系统后台]![系统后台](pic6.png)
-![代理后台]![代理后台]![输入图片说明](pic%E4%BB%A3%E7%90%86%E5%90%8E%E5%8F%B0.png)
+![代理后台]![代理后台]![输入图片说明](pic/%E4%BB%A3%E7%90%86%E5%90%8E%E5%8F%B0.png)
 
 ## 特别注意
 
