@@ -108,12 +108,11 @@
 
 ## 部分新功能预览  
 永续合约
-![永续合约](https://images.gitee.com/uploads/images/2020/0821/054156_1f95eb31_2182501.png "iShot2020-08-21上午05.41.07.png")
-
+![永续合约]
 二元期权/预测合约
-![二元期权/预测合约](https://images.gitee.com/uploads/images/2020/0821/054235_de3e8583_2182501.png "iShot2020-08-21上午05.41.34.png")
+![二元期权/预测合约]
+![输入图片说明](11.png)
 
-本人仅业余时间开发，进度延迟可能性大，已尽最大可能赶进度。有兴趣一起开发的小伙伴，欢迎一起。
 
 ## 简要介绍
 
@@ -125,11 +124,10 @@
 - 原生苹果APP源码 
 - 币种钱包RPC源码 
  
-![PC](https://images.gitee.com/uploads/images/2020/0422/182754_a150e134_2182501.png "QQ截图20200422182717.png")
+![PC]![pc版预览](22.png)
 
-![APP](https://images.gitee.com/uploads/images/2020/0422/182544_05863aa2_2182501.png "幻灯片1.PNG")
+![APP]![app版预览](shouji.png)
 
-![APP](https://images.gitee.com/uploads/images/2020/0422/182559_860d3c60_2182501.png "幻灯片2.PNG")
 
 ## 部署文档（超详细版）
 仅限客户使用
