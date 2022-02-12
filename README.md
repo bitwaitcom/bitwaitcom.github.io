@@ -449,7 +449,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ![充值逻辑](https://images.gitee.com/uploads/images/2020/0327/162223_5d418523_2182501.png "13981024-76374161aedf70d6.png")
 ![系统后台]![系统后台](pic6.png)
-![代理后台]
+![代理后台]![代理后台]![输入图片说明](pic%E4%BB%A3%E7%90%86%E5%90%8E%E5%8F%B0.png)
 
 ## 特别注意
 
