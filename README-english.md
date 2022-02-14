@@ -1,7 +1,6 @@
-# Change from now on
 # Crypto-Exchange / Coin-Exchange /BitExchange 
 #Open source code is only for reference and learning. Do not use it for illegal purposes;
-##Run demo
+## Run demo
 ### [http://bizzan.org/](http://bizzan.org/）(please do your own science)
 ##Back end & agent back end & other versions & quantitative merchandising system & niuren merchandising system, please contact
 Add my QQ: 2098401701 to get more demonstrations: Airplane: @ bitwait click star to report the number of stars. You can apply for admission
