@@ -62,9 +62,7 @@ The basic version only provides technical communication. If you need another fun
 -  Optimize 33 UI details
 -  Three new sections are added in the optimized installation and deployment document
 White screenshot Preview:
-![enter picture description]
-(https://images.gitee.com/uploads/images/2020/0908/025036_711087ab_2182501.
-Png "slide 1. PNG")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0908/025036_711087ab_2182501.png "幻灯片1.png")
 For download experience, please contact QQ: 2098401701
 #Characteristics
 >Feature 1: memory based matching engine, faster matching with traditional database
@@ -97,7 +95,7 @@ For download experience, please contact QQ: 2098401701
 ![perpetual contract]
 Binary option / forecast contract
 ![binary option / forecast contract]
-![preview] (PIC / 11. PNG)
+![预览](pic/11.png)
 ##Brief introduction
 This project is a bitcoin exchange | BTC exchange | eth exchange | digital currency exchange | trading platform | matching trading engine developed based on Java (spring cloud).This project is based on the development of springcloud micro service, which can be used to build and redevelop digital currency exchange. It has complete system components.
 -  Matchmaking trading engine
@@ -107,42 +105,33 @@ This project is a bitcoin exchange | BTC exchange | eth exchange | digital curre
 -  Native Apple App source code
 -  Currency wallet RPC source code
  
-![PC]![PC preview] (PIC / 22. PNG)
-![APP]![app preview] (PIC / Shouji. PNG)
+![PC]![pc版预览](pic/22.png)
+![APP]![app版预览](pic/shouji.png)
 ##Deployment document (super detailed version) is only available to customers
-![enter picture description]
-(https://images.gitee.com/uploads/images/2020/0805/022849_78d1fc64_2182501.Png "ishot2020-08-05 (02.28.29 am. PNG")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0805/022849_78d1fc64_2182501.png "iShot2020-08-05上午02.28.29.png")
 ##A few sketches drawn casually for the outline of the system architecture. Let's make do with it...
 ####Overall architecture
-![overall architecture]
-(https://images.gitee.com/uploads/images/2020/0407/143836_eac248e5_2182501. png "1.png")
+![整体架构](https://images.gitee.com/uploads/images/2020/0407/143836_eac248e5_2182501.png "1.png")
 ####Logical architecture
-![logical architecture]
-(https://images.gitee.com/uploads/images/2020/0407/143856_66257325_2182501. png "2.png")
+![逻辑架构](https://images.gitee.com/uploads/images/2020/0407/143856_66257325_2182501.png "2.png")
 ####Deployment architecture
-![deployment architecture]
-(https://images.gitee.com/uploads/images/2020/0408/141710_07923003_2182501. png "1117.png")
+![部署架构](https://images.gitee.com/uploads/images/2020/0408/141710_07923003_2182501.png "1117.png")
 ####Dependency
-![dependencies]
-(https://images.gitee.com/uploads/images/2020/0407/194510_89803a9d_2182501.Png "QQ screenshot 20200407194419. PNG")
+![依赖关系](https://images.gitee.com/uploads/images/2020/0407/194510_89803a9d_2182501.png "QQ截图20200407194419.png")
 ##Contact information
 QQ：2098401701
 ##System demonstration video
-PC front end (user web end):
-[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexcha nge/CoinExchange/attach_files)
-Mobile app terminal:
-[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexcha nge/CoinExchange/attach_files)
-Management background:
-[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexcha nge/CoinExchange/attach_files)
+PC（Web）：[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexchange/CoinExchange/attach_files)
+
+APP：[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexchange/CoinExchange/attach_files)
+
+admin：[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexchange/CoinExchange/attach_files)
 ##Development reference
 Development reference documents:
-[https://gitee.com/cexchange/CoinExchange/blob/master/DEVELOP.md](https://git ee.com/cexchange/CoinExchange/blob/master/DEVELOP.md)
-Screenshot of management background:[https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/Management background screenshot]
-(https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/%E7%AE%A1%E
-7%90%86%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B %BE)
+
 ##About spring cloud
 Spring cloud is an ordered collection of frameworks.Taking advantage of the development convenience of spring boot, it cleverly simplifies the development of distributed system infrastructure, such as service discovery and registration, configuration center, message bus, load balancing, circuit breaker, data monitoring, etc., which can be started and deployed with one click with the development style of spring boot.Spring cloud does not repeatedly manufacture wheels. It just combines the relatively mature service frameworks developed by various companies and can stand the actual test. It is repackaged through the spring boot style, shielding the complex configuration and implementation principles. Finally, it leaves a set of simple, easy to understand, easy to deploy and easy to maintain distributed system development kit for developers.Generally speaking, a complete spring cloud framework should be as shown in the figure below:
-![spring cloud framework diagram]![system architecture] (PIC /% E7% AE% 80% E4% BB% 8b. PNG)
+![SpringCloud框架图]![系统构架](pic/%E7%AE%80%E4%BB%8B.png)
 If you are not familiar with spring cloud, you can simply learn the relevant tutorials of spring cloud first, so that it will be easier to get started when you come back to this project.
 Remind me, because the spring cloud framework diagram is a complete architecture, we will appropriately cut some content during development to make development and deployment faster, so there are some differences.
 ##About matchmaking trading engine
@@ -158,9 +147,7 @@ Including 01_Framework / exchange project is mainly responsible for memory match
 -  Matching of limit order and market order
 -  Market order matching with market order
 **Limit & market order processing logic**
-![limit & market order processing logic]
-(https://images.gitee.com/uploads/images/2020/0408/144633_457c0552_2182501.
-png "2222.png")
+![限价&市价订单处理逻辑](https://images.gitee.com/uploads/images/2020/0408/144633_457c0552_2182501.png "2222.png")
 Note: This diagram is from a long time ago, and the logic in the latest code is more complex
 **Other functions supported by matchmaking engine**
 In addition to setting the initial transaction volume and transaction price of btdt / USC, the matching engine can also set the initial matching time and transaction price of the transaction, so as to meet the matching mode of the transaction and the market price of the ordinary transaction.
@@ -200,8 +187,7 @@ Contact QQ: 2098401701==============================================
 9.     Vue
 10.  Zookeeper
 ##Recommended configuration for production environment
-![recommended configuration for production environment]
-(https://images.gitee.com/uploads/images/2020/0406/204436_dfff09a6_2182501.pNG "QQ screenshot 20200406204341. PNG")
+![生产环境建议配置](https://images.gitee.com/uploads/images/2020/0406/204436_dfff09a6_2182501.png "QQ截图20200406204341.png")
 ##File directory description
 **00_framework**
 └ -- admin background management API
@@ -313,12 +299,9 @@ The API operation modes of bitcoin derivatives such as BCH, BSV and BCD are almo
 (https://github.com/ripple/ripple-lib/)）
 Generally speaking, when the amount of funds in and out of the exchange is small, you can explore by yourself, but when the amount of funds in the exchange is large, if you are not confident about your wallet operation, you can also use the wallet service of a third party. Of course, this requires you to negotiate with the wallet service provider and pay an annual fee or something.
 The following figure is a brief description of the user recharge monitoring logic. Just take a simple look:
-![recharge logic]
-(https://images.gitee.com/uploads/images/2020/0327/162223_5d418523_2182501.
-png "13981024-76374161aedf70d6.png")
-![system background]![system background] (PIC / 6. PNG)
-![agent background]![agent background]![enter picture description]
-(pic/%E4%BB%A3%E7%90%86%E5%90%8E%E5%8F%B0.png)
+![充值逻辑](https://images.gitee.com/uploads/images/2020/0327/162223_5d418523_2182501.png "13981024-76374161aedf70d6.png")
+![系统后台]![系统后台](pic/6.png)
+![代理后台]![代理后台]![输入图片说明](pic/%E4%BB%A3%E7%90%86%E5%90%8E%E5%8F%B0.png)
 ##Pay special attention to any use of this source code in business activities, causing losses to others and yourself, I will not be responsible!
 ##For other related product demonstrations, please contact
 ![产品演示]![产品演示]![产品演示](pic/product/20216091.jpg)
