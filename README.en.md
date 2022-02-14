@@ -72,7 +72,7 @@ The basic version only provides technical communication. If you need another fun
 - Three new sections are added in the optimized installation and deployment document
  
 White screenshot Preview:
-![enter picture description]（https://images.gitee.com/uploads/images/2020/0908/025036_711087ab_2182501.png"Slide 1. PNG")
+![enter picture description]（https://images.gitee.com/uploads/images/2020/0908/025036_711087ab_2182501.png)
 For download experience, please contact QQ: 2098401701
  
 #Characteristics
