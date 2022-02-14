@@ -1,518 +1,492 @@
-# Crypto-Exchange / Coin-Exchange   
-
-# 开源代码仅供参考学习，请勿用于非法用途；
-
-## 运行演示  
-### [http://16.162.252.129:81/](http://16.162.252.129:81/)  
-
-## 后端 & 代理商后台 等演示  
-添加本人 QQ:877070886 获取。
-
-虽然说是演示的，但其实并不是专门用来给大家演示的，而是给我自己开发用的。所以请不要乱动数据，这样会导致脏数据，我开发的最新成果一般都会反应到这个站上。你本周看到的页面，可能下周就不一样了，一直在优化，一直在开发新功能。
-
-## 基于ETH发行ERC20代币可参考：
-
-[https://gitee.com/ethergo/ether-erc20-token](https://gitee.com/ethergo/ether-erc20-token)  
-收集了431个基于以太坊发行的ERC20代币源码，基本上能找到各种业务模型的ERC20代币业务模型
-
-## 下一阶段工作重点： 
-1. 系统性能提升（基础软件优化） 
-2. 系统稳定性提升（完善服务治理、链路监控、网关路由、负载均衡等） 
-3. 撮合引擎升级，支持横向扩展（当前系统唯一性能瓶颈所在） 
-4. 基础软件版本升级（SpringCloud、MySQL、Kafka、Redis以及Maven依赖等） 
-5. 统一配置中心，降低配置难度（计划将Eureka变更为Nacos） 
-6. 支持Docker及K8S容器编排部署方式 
-7. 支持Jekins持续集成 
-8. 设计全新交易所UI，提升用户体验&避免撞脸 
-
-## 2020/11/07 稳定版更新公示 
-- 新增 期权合约 Android App 
-- 新增 阿里云&赛邮（短信&邮件）支持 
-- 新增 Link & YFI钱包RPC支持 
-- 新增 Api模块（进度：80%）
-- 新增 超机器人增加跟随型趋势设置 
-- 新增 PC端白蓝版 
-- 新增 基础版手机端H5页面支持 
-- 新增 Android App去除第三方K线插件（改为自研K线模块） 
-- 新增 永续合约 IOS App（感谢nomo） 
-- 新增 双端APP多语言（中英）支持 
-- 修复 币币交易Websocket行情推送卡顿 
-- 修复 IOS App兼容IOS 13颜色设置 
-- 修复 升级OmniUSDT版本至0.8.0，解决部分节点接口过时问题 
-- 更新 安装部署文档新增2节 
-
-## 2020/09/08 稳定版更新公示  
-- 新增 永续合约后端
-- 新增 永续合约PC用户端
-- 新增 永续合约PC管理端
-- 新增 永续合约 Android App
-- 新增 预测合约后端
-- 新增 预测/期权合约PC用户端
-- 新增 预测/期权合约PC管理端
-- 新增 Android APP白色版
-- 新增 IOS App白色版
-- 修复 12个BUG（非重大）
-- 优化 33个UI细节
-- 优化 安装部署文档新增3节
-
-白色版截图预览：
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0908/025036_711087ab_2182501.png "幻灯片1.png")
-下载体验请联系QQ：877070886
-
-# 特色
->  特色1: 基于内存撮合引擎，与传统基于数据库撮合更快  
->  特色2: 前后端分离，基于Token的Api授权机制  
->  特色3: 基于SpringCloud微服务架构，扩展更容易  
->  特色4: MySQL、MongoDB、Redis多种数据存储方式，只为更快  
->  特色5: Kafka发布订阅消息队列，让订单更快流转  
->  特色6: 主流币种对接区块链接口齐全，开箱即用  
->  特色7: 冷热钱包分离，两种提现方式，保证安全  
->  特色8: 机器人系统，同步行情，维护深度，防止搬砖  
->  特色9: 原生App，Java和ObjectC提供原生体验  
->  特色10: 交易所设计者提供技术支持，部署+二开无忧  
->  特色11: 支持添加自定义平台币及其他币种  
-
->  声明一：我已在新公司上班，一些说明性的东西我会抽空在这里更新，以方便大家编译、搭建、开发  
->  声明二：APP源码及交易机器人源码未开源，有需要的添加QQ：877070886    
->  声明四：请不要用本开源代码直接搭建交易所！本源码尚有一些隐藏BUG，仅供学习！否则后果自负！  
->  声明五：本交易所完整源码仅向有技术团队或技术实力的人提供，小白或不同技术的请勿咨询！
-
-# 新功能持续开发中，敬请期待
-
-- 代理商系统（100%，5月已完成，未开源）  
-- 极速兑换（100%，6月已完成，未开源）  
-- IEO首发活动（100%，6月已完成，未开源）  
-- 永续合约（100%，8月完成，不开源）  
-- 期权合约（100%，9月完成，不开源）  
-- 秒合约（0%，11月完成，不开源）   
-- 指数合约（0%，12月完成，不开源） 
-- 差价合约（0%，1月完成，不开源）  
-- 交割合约（0%，2月完成，不开源）   
-- 智能客服系统（0%，1月完成，不开源）
-
-## 部分新功能预览  
-永续合约
-![永续合约](https://images.gitee.com/uploads/images/2020/0821/054156_1f95eb31_2182501.png "iShot2020-08-21上午05.41.07.png")
-
-二元期权/预测合约
-![二元期权/预测合约](https://images.gitee.com/uploads/images/2020/0821/054235_de3e8583_2182501.png "iShot2020-08-21上午05.41.34.png")
-
-本人仅业余时间开发，进度延迟可能性大，已尽最大可能赶进度。有兴趣一起开发的小伙伴，欢迎一起。
-
-## 简要介绍
-
-本项目是基于Java（SpringCloud）开发的比特币交易所 | BTC交易所 | ETH交易所 | 数字货币交易所 | 交易平台 | 撮合交易引擎。本项目基于SpringCloud微服务开发，可用来搭建和二次开发数字货币交易所，有完整的系统组成部分。 
-- 撮合交易引擎 
-- 后台管理（后端+前端） 
-- 前台（交易页面、活动页面、个人中心等） 
-- 原生安卓APP源码 
-- 原生苹果APP源码 
-- 币种钱包RPC源码 
+# Crypto-Exchange / Coin-Exchange /BitExchange 
  
-![PC](https://images.gitee.com/uploads/images/2020/0422/182754_a150e134_2182501.png "QQ截图20200422182717.png")
-
-![APP](https://images.gitee.com/uploads/images/2020/0422/182544_05863aa2_2182501.png "幻灯片1.PNG")
-
-![APP](https://images.gitee.com/uploads/images/2020/0422/182559_860d3c60_2182501.png "幻灯片2.PNG")
-
-## 部署文档（超详细版）
-仅限客户使用
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0805/022849_78d1fc64_2182501.png "iShot2020-08-05上午02.28.29.png")
-
-## 系统架构概要
-
-随便画的几个草图，凑合看吧。。。
-
-#### 整体架构
-
-![整体架构](https://images.gitee.com/uploads/images/2020/0407/143836_eac248e5_2182501.png "1.png")
-
-#### 逻辑架构
-
-![逻辑架构](https://images.gitee.com/uploads/images/2020/0407/143856_66257325_2182501.png "2.png")
-
-#### 部署架构
-
-![部署架构](https://images.gitee.com/uploads/images/2020/0408/141710_07923003_2182501.png "1117.png")
-
-#### 依赖关系
-
-![依赖关系](https://images.gitee.com/uploads/images/2020/0407/194510_89803a9d_2182501.png "QQ截图20200407194419.png")
-
-## 联系方式
-
-QQ：877070886  
-
-## 系统演示视频
-
-PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexchange/CoinExchange/attach_files)
-
-手机APP端：[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexchange/CoinExchange/attach_files)
-
-管理后台：[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexchange/CoinExchange/attach_files)
-
-## 开发参考
-
-开发参考文档：[https://gitee.com/cexchange/CoinExchange/blob/master/DEVELOP.md](https://gitee.com/cexchange/CoinExchange/blob/master/DEVELOP.md)
-
-管理后台截图：[https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/管理后台截图](https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE)
-
-## 关于SpringCloud
-
-Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便利性巧妙地简化了分布式系统基础设施的开发，如服务发现注册、配置中心、消息总线、负载均衡、断路器、数据监控等，都可以用Spring Boot的开发风格做到一键启动和部署。Spring Cloud并没有重复制造轮子，它只是将各家公司开发的比较成熟、经得起实际考验的服务框架组合起来，通过Spring Boot风格进行再封装屏蔽掉了复杂的配置和实现原理，最终给开发者留出了一套简单易懂、易部署和易维护的分布式系统开发工具包。
-一般而言，一个完整的SpringCloud框架应该如下图所示：
-
-![SpringCloud框架图](https://images.gitee.com/uploads/images/2020/0408/133052_3ec984df_2182501.png "图片2.png")
-
-如果对SpringCloud尚不熟悉，可以先简单学习一下SpringCloud的相关教程，这样再回来看本项目，会更加容易上手。
-提醒一下，因为Springcloud框架图中是完整的架构，在开发的时候，我们会适当的裁剪一些内容，从而让开发和部署更加快速，所以有一些出入的地方。
-
-## 关于撮合交易引擎
-
-本系统对交易队列采用内存撮合的方式进行，以Kafka做撮合订单信息传输，MongoDB持久化订单成交明细，MySQL记录订单总体成交。
-其中01_Framework/Exchange项目主要负责内存撮合，01_Framework/Market项目主要负责订单成交持久化、行情生成、行情推送等服务，包括：
-
-- K线数据，间隔分别为：1分钟、5分钟、15分钟、30分钟、1小时、1天、1周、1月
-- 所有交易对的市场深度（market depth）数据
-- 所有交易对的最新价格
-- 最近成交的交易对
-
- **内存撮合交易支持的模式** 
-
-- 限价订单与限价订单撮合
-- 市价订单与限价订单撮合
-- 限价订单与市价订单撮合
-- 市价订单与市价订单撮合
-
- **限价&市价订单处理逻辑** 
-
-![限价&市价订单处理逻辑](https://images.gitee.com/uploads/images/2020/0408/144633_457c0552_2182501.png "2222.png")
-注意：这个图很久以前的了，最新代码中的逻辑更复杂了
-
- **撮合引擎支持的其他功能** 
-
-除了普通的限价与市价撮合交易功能外，本系统的撮合交易引擎还引入了活动成交模式，通过设置交易对（如：BTC/USDT）的开始交易时间、初始发行量、初始发行价、活动模式等参数，可以制定出丰富的撮合交易模式，从而满足不同的撮合模式。
-
- **举例说明** 
-
-交易所预计在2020年8月8日 12时00分00秒上线交易对AAA/USDT，但是作为一个新上线的币种，没有活动怎么能行呢？项目方或交易所决定拿出10000个AAA以0.0001USDT（市场行情价：0.0005）的价格让大家抢购。本系统支持对这种活动的设置。
-
-另外，如果项目方或交易所决定拿出10000个AAA以0.0001USDT的价格发行，不希望大家抢购，而是希望所有充值USDT的用户能够平均瓜分10000个AAA，本系统也支持这种活动的设置。
-
- **总结** 
-
-总之，本系统支持高度自定义的撮合模式，同时你也可以开发出你自己想要的撮合交易模式，只需要通过修改Exchange项目中的撮合逻辑就可以。
-
-## 关于技术构成
-
-- 后端：Spring、SpringMVC、SpringData、SpringCloud、SpringBoot
-- 数据库：Mysql、Mongodb
-- 其他：redis、kafka、阿里云OSS、腾讯防水校验
-- 前端：Vue、iView、less
-
-## 实际演示网站
-
-[https://www.bizzan.com](https://www.bizzan.com)
-
-这个是给客户做的，但是后来客户不运营了，所以遗留了这个网站，因为我没有服务器权限，所以这个网站随时可能无法访问。
-
-搭建起来一个测试站点需要购买好几台云服务器，成本较大，所以我自己没有搭建测试站，但是系统是完整的，经过了将近一年的商用及实际运营考验。
-
-
-> 关于交易机器人   
-> 交易机器人是自动交易的程序，可以根据外部行情，自动进行交易，让本交易所的交易对价格与外部保持一致，防止因部分用户“搬砖”导致的损失。   
-
-> 关于搬砖  
-> 例如A交易所BTC价格是10000USDT，而B交易所的BTC价格是9500USDT，搬砖就是在B交易所通过9500USDT的价格买入BTC，然后转账到A交易所，赚取差价（500USDT）。    
-> 如果交易所没有交易机器人，就会导致本交易所的币种价格与其他主流交易所相比有差价，从而让用户“搬砖”，导致交易所损失。   
-> 另外，交易机器人还有一个功能，就是在交易所初期运营的时候，形成一个初期的交易深度，不会让用户觉得交易所冷清，没有用户。   
-
-我本人是Java程序员，对移动端开发不太了解，所以包调试安装实际上也是我付费请别人帮忙的。
-
-如果你没有技术人员，我可以帮助你搭建一套完整的交易所系统，但是需要你请一到两名维护人员，因为系统的稳定运行少不了运维人员。
-
-联系QQ：877070886
-
+#Open source code is only for reference and learning. Do not use it for illegal purposes;
+ 
+##Run demo
+### [http://bizzan.org/](http://bizzan.org/）(please do your own science)
+ 
+##Back end & agent back end & other versions & quantitative merchandising system & niuren merchandising system, please contact
+Add my QQ: 2098401701 to get more demonstrations: Airplane: @ bitwait click star to report the number of stars. You can apply to join the group. The administrator provides free technical consultation and basic version source code information
+ 
+The basic version only provides technical communication. If you need another function, you can contact the team for UI customization. More finished product demonstrations are at the bottom of the details
+ 
+##Erc20 tokens issued based on eth can be referred to:
+ 
+[https://gitee.com/bitwait/ether-erc20](https://gitee.com/bitwait/ether-erc20) 
+431 erc20 token source codes based on Ethereum are collected. Basically, erc20 token business models of various business models can be found
+ 
+##Updated publicity of stable version on January 7, 2022:
+1. System performance improvement (basic software optimization)
+2. Improve system stability (improve service governance, link monitoring, gateway routing, load balancing, etc.)
+3. Match engine upgrade and support horizontal expansion (the only performance bottleneck of the current system)
+4. Basic software version upgrade (springcloud, mysql, Kafka, redis, Maven dependency, etc.)
+5. The unified configuration center supports one click shell stand-alone deployment of any CentOS machine and external reading of configuration files
+6. Support docker and k8s container layout and deployment
+7. Support jekins continuous integration
+8. Design a new exchange UI, complete multiple sets of UI finished products, and switch the front end between black and white
+ 
+##Update and publicity of stable version on September 2, 2021
+- New coin function Android IOS app
+- New SMS treasure (SMS & email) support
+- New Youdun wallet RPC support
+- Add API module
+- New interface query function
+- New defi pledge function
+- The H5 page of the new mobile terminal supports common functions
+- Add different UI interfaces and call different K-line modules
+- Multi account settings of new transaction robot
+- The new agent provides source tracking function
+- Fix abnormal fluctuation of currency transaction
+- Fix IOS version
+- Repair and try to access mainstream public chains such as matic and sol
+- Update the embedded DAPP function, refer to
+ 
+##Update and publicity of stable version on November 7, 2020
+- New option contract Android App
+- New Alibaba cloud & saiYou (SMS & email) support
+- New link & yfi wallet RPC support
+- Add API module (Progress: 80%)
+- Add super robot and follow trend setting
+- New PC white and blue version
+- New basic version of mobile terminal H5 page support
+- Add android app, remove the third-party K-line plug-in (replace it with self-developed K-line module)
+- New perpetual contract IOS app (thanks Nomo)
+- Add dual terminal app multilingual (Chinese and English) support
+- Fix currency trading websocket market push Caton
+- Fix IOS app compatible IOS 13 color settings
+- Repair and upgrade the omniusdt version to 0.8.0, and solve the outdated problem of some node interfaces
+- Update the installation and deployment document and add 2 sections
+ 
+##Update and publicity of stable version on September 8, 2020
+- New perpetual contract backend
+- Add PC client of perpetual contract
+- Add PC management end of perpetual contract
+- New perpetual contract Android App
+- New forecast contract backend
+- Add PC client of forecast / option contract
+- Add PC management end of forecast / option contract
+- New white version of Android App
+- New IOS app white version
+- Fix 12 bugs (non major)
+- Optimize 33 UI details
+- Three new sections are added in the optimized installation and deployment document
+ 
+White screenshot Preview:
+![enter picture description]（https://images.gitee.com/uploads/images/2020/0908/025036_711087ab_2182501.png"Slide 1. PNG")
+For download experience, please contact QQ: 2098401701
+ 
+#Characteristics
+>Feature 1: memory based matching engine, faster matching with traditional database
+>Feature 2: front and back end separation, token based API authorization mechanism
+>Feature 3: Based on springcloud micro service architecture, it is easier to expand
+>Feature 4: MySQL, mongodb, redis and other data storage methods, only for faster
+>Feature 5: Kafka publishes and subscribes to the message queue to make the order flow faster
+>Feature 6: mainstream currencies have complete interfaces with blockchain and can be used out of the box
+>Feature 7: separation of hot and cold wallets, two cash withdrawal methods to ensure safety
+>Feature 8: robot system, synchronous market, maintenance depth, preventing brick moving
+>Feature 9: native app, Java and objectc provide native experience
+>Feature 10: exchange designers provide technical support, deployment + worry free second opening
+>Feature 11: support adding custom platform currency and other currencies
+ 
+>Statement 1: I have worked in the new company. I will update some illustrative things here to facilitate compilation, construction and development
+>Statement 2: app source code and trading robot source code are not open source. If necessary, add QQ: 2098401701
+>Statement 4: please do not use this open source code to directly build an exchange!There are some hidden bugs in this source code for learning only!Otherwise, you will bear the consequences!
+>Statement 5: the complete source code of the exchange is only provided to people with technical team or technical strength. Please do not consult Xiaobai or people with different technologies!
+ 
+#New functions are under continuous development. Please look forward to it
+ 
+- Agent system (100%, completed in May, not open source)
+- Speed exchange (100%, completed in June, not open source)
+-IEO launch (100%, completed in June, not open source)
+- Perpetual contract (100%, completed in August, no open source)
+- Option contract (100%, completed in September, not open source)
+- Second contract (0%, completed in November, not open source)
+- Index contract (0%, completed in December, not open source)
+- Contract for price difference (0%, completed in January, not open source)
+- Delivery contract (0%, completed in February, not open source)
+- Intelligent customer service system (0%, completed in January, not open source)
+ 
+##Preview of some new features
+Perpetual contract
+![perpetual contract]
+Binary option / forecast contract
+![binary option / forecast contract]
+![preview] (PIC / 11. PNG)
+ 
+ 
+##Brief introduction
+ 
+This project is a bitcoin exchange | BTC exchange | eth exchange | digital currency exchange | trading platform | matching trading engine developed based on Java (spring cloud).This project is based on the development of springcloud micro service, which can be used to build and redevelop digital currency exchange. It has complete system components.
+- Matchmaking trading engine
+- Background management (back end + front end)
+- Front desk (transaction page, activity page, personal center, etc.)
+- Native Android App source code
+- Native Apple App source code
+- Currency wallet RPC source code
+ 
+![PC]![PC preview] (PIC / 22. PNG)
+ 
+![APP]![app preview] (PIC / Shouji. PNG)
+ 
+ 
+##Deployment document (super detailed version)
+Customer use only
+![enter picture description]（https://images.gitee.com/uploads/images/2020/0805/022849_78d1fc64_2182501.png"Ishot2020-08-05 am 02.28.29. PNG")
+ 
+##System Architecture Overview
+ 
+Make do with a few sketches drawn casually...
+ 
+####Overall architecture
+ 
+![overall architecture]（https://images.gitee.com/uploads/images/2020/0407/143836_eac248e5_2182501.png "1.png")
+ 
+####Logical architecture
+ 
+![logical architecture]（https://images.gitee.com/uploads/images/2020/0407/143856_66257325_2182501.png "2.png")
+ 
+####Deployment architecture
+ 
+![deployment architecture]（https://images.gitee.com/uploads/images/2020/0408/141710_07923003_2182501.png "1117.png")
+ 
+####Dependency
+ 
+![dependencies]（https://images.gitee.com/uploads/images/2020/0407/194510_89803a9d_2182501.png"QQ screenshot 20200407194419. PNG")
+ 
+##Contact information
+ 
+QQ：2098401701
+ 
+##System demonstration video
+ 
+PC front end (user web end):[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexchange/CoinExchange/attach_files)
+ 
+Mobile app terminal:[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexchange/CoinExchange/attach_files)
+ 
+Management background:[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexchange/CoinExchange/attach_files)
+ 
+##Development reference
+ 
+Development reference documents:[https://gitee.com/cexchange/CoinExchange/blob/master/DEVELOP.md](https://gitee.com/cexchange/CoinExchange/blob/master/DEVELOP.md)
+ 
+Screenshot of management background:[https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/Management background screenshot]（https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE)
+ 
+##About spring cloud
+ 
+Spring cloud is an ordered collection of frameworks.Taking advantage of the development convenience of spring boot, it cleverly simplifies the development of distributed system infrastructure, such as service discovery and registration, configuration center, message bus, load balancing, circuit breaker, data monitoring, etc., which can be started and deployed with one click with the development style of spring boot.Spring cloud does not repeatedly manufacture wheels. It just combines the relatively mature service frameworks developed by various companies and can stand the actual test. It is repackaged through the spring boot style, shielding the complex configuration and implementation principles. Finally, it leaves a set of simple, easy to understand, easy to deploy and easy to maintain distributed system development kit for developers.
+Generally speaking, a complete spring cloud framework should be as shown in the figure below:
+ 
+![spring cloud framework diagram]![system architecture] (PIC /% E7% AE% 80% E4% BB% 8b. PNG)
+ 
+If you are not familiar with spring cloud, you can simply learn the relevant tutorials of spring cloud first, so that it will be easier to get started when you come back to this project.
+Remind me, because the spring cloud framework diagram is a complete architecture, we will appropriately cut some content during development to make development and deployment faster, so there are some differences.
+ 
+##About matchmaking trading engine
+ 
+The system uses memory matching for the transaction queue, uses Kafka to transmit the matching order information, mongodb to persist the order transaction details, and MYSQL to record the overall order transaction.
+Including 01_Framework / exchange project is mainly responsible for memory matching, 01_The framework / market project is mainly responsible for order transaction persistence, market generation, market push and other services, including:
+ 
+-K-line data, with intervals of 1 minute, 5 minutes, 15 minutes, 30 minutes, 1 hour, 1 day, 1 week and 1 month respectively
+- Market depth data of all trading pairs
+- Latest price of all transaction pairs
+- Recent transactions
+ 
+**Mode supported by memory matching transaction**
+ 
+- Matching of limit order and limit order
+- Matching of market order and limit order
+- Matching of limit order and market order
+- Market order matching with market order
+ 
+**Limit & market order processing logic**
+ 
+![limit & market order processing logic]（https://images.gitee.com/uploads/images/2020/0408/144633_457c0552_2182501.png "2222.png")
+Note: This diagram is from a long time ago, and the logic in the latest code is more complex
+ 
+**Other functions supported by matchmaking engine**
+ 
+In addition to setting the initial transaction volume and transaction price of btdt / USC, the matching engine can also set the initial matching time and transaction price of the transaction, so as to meet the matching mode of the transaction and the market price of the ordinary transaction.
+ 
+**Examples**
+ 
+The exchange is expected to launch trading against AAA / usdt at 12:00:00 on August 8, 2020. However, as a newly launched currency, how can we do without activity?The project party or the Exchange decided to take out 10000 AAA for rush purchase at the price of 0.0001usdt (market price: 0.0005).The system supports the setting of such activities.
+ 
+In addition, if the project party or the exchange decides to issue 10000 AAA at the price of 0.0001 usdt, we don't want everyone to rush to buy, but hope that all users who recharge usdt can divide up 10000 AAA on average. The system also supports the setting of this activity.
+ 
+**Summary**
+ 
+In short, the system supports highly customized matching mode. At the same time, you can also develop your own matching transaction mode by modifying the matching logic in the exchange project.
+ 
+##About technical composition
+ 
+- Back end: spring, spring MVC, spring data, spring cloud, spring boot
+- Database: MySQL, mongodb
+- Others: redis, Kafka, Alibaba cloud OSS, Tencent
+- Front end: Vue, iView, less
+ 
+##Actual demo site
+ 
+[https://www.bizzan.org](https://www.bizzan.org)
+ 
+This is for the customer, but later the customer didn&apos;t operate, so I left this website. Because I don&apos;t have server permission, this website may not be accessible at any time.
+ 
+To build a test site, I need to buy several ECS servers, which costs a lot, so I didn&apos;t build a test site myself, but the system is complete, which has been tested by business and actual operation for nearly a year.
+ 
+ 
+>About trading robots
+>The trading robot is an automatic trading program, which can automatically trade according to the external market, so that the trading price of the exchange is consistent with the external market, so as to prevent the loss caused by "brick moving" by some users.
+ 
+>About moving bricks
+>For example, the BTC price of exchange a is 10000usdt, while the BTC price of exchange B is 9500usdt. To move bricks is to buy BTC at the price of 9500usdt in exchange B, and then transfer it to exchange a to earn the price difference (500usdt).
+>If there is no Trading Robot in the exchange, there will be a price difference between the currency price of the exchange and other mainstream exchanges, allowing users to "move bricks" and causing losses to the exchange.
+>In addition, the trading robot has another function, which is to form an initial trading depth during the initial operation of the exchange, which will not make users feel that the exchange is deserted and there are no users.
+ 
+I am a java programmer and don&apos;t know much about mobile terminal development, so I actually pay others to help with package debugging and installation.
+ 
+If you don&apos;t have technicians, I can help you build a complete exchange system, but you need to hire one or two maintenance personnel, because the stable operation of the system requires operation and maintenance personnel.
+ 
+Contact QQ: 2098401701
+ 
 ==============================================
-
-## 系统运行环境
-
-1.  Centos 6.8
-2.  MySQL 5.5.16
-3.  Redis-x64-3.2.100
-4.  Mongodb 3.6.13
-5.  kafka_2.11-2.2.1
-6.  nginx-1.16.0
-7.  JRE 8u241
-8.  JDK 1.8
-9.  Vue
+ 
+##System operating environment
+ 
+1. Centos 6.8
+2. MySQL 5.5.16
+3. Redis-x64-3.2.100
+4. Mongodb 3.6.13
+5. kafka_2.11-2.2.1
+6. nginx-1.16.0
+7. JRE 8u241
+8. JDK 1.8
+9. Vue
 10. Zookeeper
-
-## 生产环境建议配置
-
-![生产环境建议配置](https://images.gitee.com/uploads/images/2020/0406/204436_dfff09a6_2182501.png "QQ截图20200406204341.png")
-
-## 文件目录说明
-
- **00_framework**
-
-└─———admin   后台管理API
-
-└─———bitrade-job     任务管理
-
-└─———chat   OTC聊天
-
-└─———cloud  SpringCloud微服务管理
-
-└─———core   核心
-
-└─———exchange   撮合交易引擎
-
-└─———exchange-api   撮合交易API
-
-└─———exchange-core   撮合交易核心
-
-└─———jar   第三方类库
-
-└─———market    市场行情API、K线生成
-
-└─———otc-api   OTC交易API（如无需otc功能可不启动）
-
-└─———otc-core  OTC核心
-
-└─———sql    SQL脚本
-
-└─———ucenter-api    用户个人中心API
-
-└─———wallet      钱包资产管理，负责与RPC对接
-
-
- **01_wallet_rpc**
-
+ 
+##Recommended configuration for production environment
+ 
+![recommended configuration for production environment]（https://images.gitee.com/uploads/images/2020/0406/204436_dfff09a6_2182501.png"QQ screenshot 20200406204341. PNG")
+ 
+##File directory description
+ 
+**00_framework**
+ 
+└ -- admin background management API
+ 
+└ -- bitrade job task management
+ 
+└ -- chat OTC chat
+ 
+└ -- cloud springcloud microservice management
+ 
+└ -- core
+ 
+└ -- exchange matching trading engine
+ 
+└ -- exchange API matchmaking transaction API
+ 
+└ -- exchange core matching transaction core
+ 
+└ -- jar third party class library
+ 
+└ -- market quotation API and K-line generation
+ 
+└ -- OTC API OTC trading API (if OTC function is not required, it can not be started)
+ 
+└ -- OTC core
+ 
+└ -- SQL script
+ 
+└ -- UCenter API user personal center API
+ 
+└ -- wallet asset management, responsible for interfacing with RPC
+ 
+ 
+**01_wallet_rpc**
+ 
 └─———bitcoin
-
+ 
 └─———bsv
-
+ 
 └─———btm
-
+ 
 └─———eos
-
+ 
 └─———erc-eusdt
-
-└─———erc-token（可对接各种ERC20币种）
-
+ 
+└ -- ERC token (can be connected to various erc20 currencies)
+ 
 └─———eth
-
+ 
 └─———ltc
-
+ 
 └─———usdt
-
-
- **02_App_Android**
-
- **03_App_IOS**
-
- **04_Web_Admin**
-
- **05_Web_Front**
-
-
-## 使用教程
-
-1.  准备mysql数据库，创建名称为“xxxx”的数据库
-2.  准备redis缓存数据库
-3.  准备kafka流式处理环境（先配置运行zookper，接着配置运行kafka）
-4.  准备mongodb数据库环境，创建用户admin、xxxx，创建bitrade数据库
-5.  准备阿里云OSS（修改项目中需要配置的地方）
-6.  准备nginx，修改配置文件（可选，正式上线需配置）
-7.  修改framework代码中的配置文件为准备环境配置参数
-8.  编译生成jar可执行文件
-9.  运行cloud.jar（微服务注册中心）
-10. 运行exchange.jar（撮合交易引擎）
-11. 运行market.jar（行情中心，需要等待Exchange.jar完全启动）
-12. 运行ucenter.jar（用户中心）
-13. 运行其他模块（wallet.jar、chat.jar、otc-api.jar等）
-14. 打开mysql，导入framework代码中的sql文件夹中xxxxxxx.sql文件，注意，trigger的sql如果报错，需要针对wallet表添加trigger
-15. 运行前端vue项目
-16. 运行后端vue项目
-17. 运行钱包RPC
-18. 运行自动交易机器人程序（本部分代码未上传，但不影响）
-19. 运行Admin项目（该服务并不依赖其他服务，因此也可只运行此项目，直接查看后台）
-
-## 技术支持
-
-本数字货币交易系统系我所在公司为交易所开发的项目，该交易所因团队原因已停止运营，我司也已于2月解散。因我参与项目时，负责整体研发管理、架构设计以及客户对接，所以掌握所有代码。
-
-本系统在功能使用上有一些需要特别注意的地方，例如新建交易对以后的其他操作，操作不当会引起数据紊乱的错误出现。
-
-本人可提供有偿技术帮助与使用培训指导!
-
-联系QQ：877070886
-
-## 注意事项
-
-当内存不足时，在linux控制台输入top可以查看java进程占用了大量内存（一个java进程占用1G以上），因为有很多jar包需要运行，所以需要控制某些jar包使用的内存，你可选择几个不怎么耗费资源的项目，如下：
-
-
+ 
+ 
+**02_App_Android**
+ 
+**03_App_IOS**
+ 
+**04_Web_Admin**
+ 
+**05_Web_Front**
+ 
+ 
+##Tutorial use
+ 
+1.  Prepare the MySQL database and create a database named "XXXX"
+2.  Prepare redis cache database
+3.  Prepare the Kafka streaming environment (first configure and run zookper, then configure and run Kafka)
+4.  Prepare mongodb database environment, create users admin and XXXX, and create bitrade database
+5.  Prepare alicloud OSS (modify the configuration in the project)
+6.  Prepare nginx and modify the configuration file (optional, configuration is required for official launch)
+7.  Modify the configuration file in the framework code to prepare the environment configuration parameters
+8.  Compile and generate jar executable
+9.  Run cloudJar (micro service registry)
+10. Run exchangeJar (matching transaction engine)
+11. Run marketJar (market center, need to wait for exchange.jar to start completely)
+12. Run UCenterJar (user center)
+13. Run other modules (wallet.jar, chat.jar, otc-api.jar, etc.)
+14. Open MySQL and import XXXXXXXX in the SQL folder in the framework codeSQL file. Note that if the SQL of trigger reports an error, you need to add a trigger for the wallet table
+15. Run front-end Vue project
+16. Run backend Vue project
+17. Run wallet RPC
+18. Run the automatic trading robot program (this part of the code has not been uploaded, but it does not affect)
+19. Run the admin project (the service does not depend on other services, so you can only run this project and view the background directly)
+ 
+##Technical support
+ 
+This digital currency trading system is a project developed by our company for the exchange. The exchange has stopped operation due to team reasons, and our company has also been dissolved in February.When I participated in the project, I was responsible for the overall R & D management, architecture design and customer docking, so I mastered all the codes.
+ 
+There are some places that need special attention in the function use of the system, such as the new transaction and other operations in the future. Improper operation will cause the error of data disorder.
+ 
+I can provide paid technical assistance and training guidance!
+ 
+Contact QQ: 2098401701
+ 
+##Precautions
+ 
+When the memory is insufficient, enter top on the Linux console to see that Java processes occupy a lot of memory (one java process occupies more than 1G). Because there are many jar packages to run, it is necessary to control the memory used by some jar packages. You can choose several projects that do not consume much resources, as follows:
+ 
+ 
 ```
-java -jar -Xms128m -Xmx128m -Xmn200m -Xss256k  admin-api.jar
-
-java -jar -Xms512m -Xmx512m -Xmn200m -Xss256k  cloud.jar
-
-java -jar -Xms512m -Xmx512m -Xmn200m -Xss256k  wallet.jar
+java -jar -Xms128m -Xmx128m -Xmn200m -Xss256k admin-api.jar
+ 
+java -jar -Xms512m -Xmx512m -Xmn200m -Xss256k cloud.jar
+ 
+java -jar -Xms512m -Xmx512m -Xmn200m -Xss256k wallet.jar
 ```
-
-
-## 关于邮件&短信
-
-1.  本系统支持邮件、短信发送系统运营状态
-2.  系统通知/报警支持：用户注册、用户认证、用户充值/提现、币种RPC运行状态、系统资源使用监控等24种监控
-
-## 关于数据库脚本的问题
-
-有朋友反映没有完整的SQL文件，这是因为编译成功的Jar，首次运行后会自动将Entity映射成数据库结构，项目中的SQL只是完成一些Springcloud无法完成的数据库结构。
-数据库自动生成配置位于application.properties配置文件：
-
-> #jpa  
-> spring.jpa.show-sql=true  
-> spring.data.jpa.repositories.enabled=true  
-> spring.jpa.hibernate.ddl-auto=update  
-
+ 
+ 
+##About email & SMS
+ 
+1.  The system supports the sending of e-mail and SMS, and the operation status of the system
+2.  System notification / alarm support: 24 kinds of monitoring, including user registration, user authentication, user recharge / withdrawal, currency RPC operation status, system resource use monitoring, etc
+ 
+##Questions about database scripts
+ 
+Some friends reported that there is no complete SQL file, because the successfully compiled jar will automatically map the entity to the database structure after the first run. The SQL in the project only completes some database structures that cannot be completed by spring cloud.
+The database auto generation configuration is located in applicationProperties configuration file:
+ 
+> #jpa 
+> spring.jpa.show-sql=true 
+> spring.data.jpa.repositories.enabled=true 
+> spring.jpa.hibernate.ddl-auto=update 
+ 
 spring.jpa.hibernate.ddl-auto=update
-这个配置会自动更新数据库结构。
-
-## 核心功能说明（用户端）
-
-- [x] 1.  注册/登录/实名认证/审核（目前仅支持手机，二次开发可加入邮件，很简单）
-- [x] 2.  Banner/公告/帮助/定制页面（Banner支持PC与APP分开设置，帮助支持各种分类模式）
-- [x] 3.  法币C2C交易/法币OTC交易（支持两种法币模式，项目早期可由平台承担C2C法币兑换，后期可开放OTC交易）
-- [x] 4.  币币交易（支持限价委托、市价委托，二次开发可加入其它委托模式）
-- [x] 5.  邀请注册/推广合伙人（支持对邀请推广人数、佣金进行以日、周、月的排行统计）
-- [x] 6.  创新实验室（该部分支持功能较多，分项说明。另，APP暂不全部支持该功能）
-
->    - [x] 6-1.  首发抢购活动模式（如发行新交易对时，可对交易对设置一定数量的币种进行抢购）  
->    - [x] 6-2.  首发分摊活动模式（如发行BTC/USDT交易对之前，官方拿出5BTC做活动，根据用户充值抵押的USDT多少进行均分BTC）  
->    - [x] 6-3.  控盘抢购模式（如发行ZZZ/USDT交易对之前，ZZZ币种价格为5USDT，官方发行活动价为0.5USDT，则可使用该模式）  
->    - [x] 6-4.  控盘均摊模式（如6-3，只不过平均分配）  
->    - [x] 6-5.  矿机活动模式（支持用户抵押一定数量的币种，由官方承诺每月返还一定数量的币种）  
-
-- [x] 7.  红包功能（支持平台及官方发放一定数量币种的红包，此功能适合用户裂变）
-- [x] 8.  用户资产管理、流水管理、委托管理、实名管理等各种基础管理
-
-
-## 核心功能说明（管理端）
-
-- [x] 1.  概要（查看平台运行数据，包含交易额、注册人数、充值等）
-- [x] 2.  会员管理（会员信息管理、会员实名审核、会员实名管理、会员余额管理、会员充值/冻结余额等）
-- [x] 3.  邀请管理（会员邀请信息、会员邀请排行管理）
-- [x] 4.  CTC管理（CTC订单管理、流水管理、承兑商管理）
-- [x] 5.  内容管理（PC广告管理、APP广告管理、公告管理、帮助管理）
-- [x] 6.  财务管理（充值提现管理、财务流水管理、对账管理、币种钱包余额管理）
-- [x] 7.  币币管理（新建交易对、管理交易对、新建交易机器人、设置交易机器人参数、设置行情引擎/交易引擎、撤销所有委托）
-- [x] 8.  活动管理（新建活动、矿机认购、抢购/瓜分管理）
-- [x] 9.  红包管理（平台红包管理、用户红包管理）
-- [x] 10.  系统管理（角色管理、部门管理、用户管理、权限管理、币种管理、RPC管理、版本管理）
-- [x] 11.  保证金管理（此功能设计时考虑到，但实际运营期间未使用到）
-- [x] 12.  OTC管理（广告管理、订单管理、OTC币种管理、退保管理等，此功能未获得实际运营检验）
-
-## 关于区块链钱包对接
-
-本项目提供两种钱包对接方式，一种是自建节点+区块链浏览器的方式，另一种是第三方钱包对接方式。如果你想使用自建节点或区块链浏览器，你直接使用00_framework中的代码进行编译即可。如果你想使用第三方钱包对接，你可以下载07_Uduncloud文件夹的优盾钱包的项目文件，把他们复制到00_framework中即可。
-
-当你拿到代码以后，对本项目进行调试运行期间，可不连接区块链节点，这并不会有太大的影响；即使不连接区块链节点，你也可以部署其一个具有撮合交易功能的交易平台（只是用户无法通过钱包地址充值而已）。 
-
-当你渐渐熟悉整套系统，同时对区块链运行原理、节点搭建、区块链浏览器有一定基础储备后，就可以开始对 **01_wallet_rpc** 文件夹下的项目进行研究。每个币种对应不同的数据访问方式，大部分区块链项目的钱包操作方式是相同的或十分相似的，比如BTC、LTC、BCH、BSV、BCD等比特币衍生币，其API操作方式几乎一样；再比如ETH，当你掌握一个合约币种的操作，其他基于ETH发行的数字货币的操作方式几乎一样。所以，基本上当你花时间弄懂了一个，就懂了一堆币种。
-
-本项目使用的钱包操作方案也是不同的，也尽可能的为大家展示了不同用法：
-- 如BTC、USDT，使用的自建全节点，现在差不多需要300G硬盘空间；
-- 如ETH，使用的是自建轻节点（[参考文章](https://www.cnblogs.com/bizzan/p/11341713.html)），因为全节点需要硬盘空间太大；
-- 如BCH、BSV等，使用的是第三方区块链浏览器获取数据；
-- 如XRP，官方就已经提供了访问区块数据的接口（[Ripple API GitHub地址](https://github.com/ripple/ripple-lib/)）
-
-一般而言，当交易所来往资金量不大的时候，你可以自己摸索，但是当交易所资金量大了以后，如果你对自己操作钱包不太放心，你也可以使用第三方的钱包服务，当然，这需要你与钱包服务商进行谈判，付个年费什么的。
-
-下图是用户充值监控逻辑的简要说明图，简单看看就行：
-
-![充值逻辑](https://images.gitee.com/uploads/images/2020/0327/162223_5d418523_2182501.png "13981024-76374161aedf70d6.png")
-
-
-## 系统展示（PC前端）
-
-![首页](https://images.gitee.com/uploads/images/2020/0327/135803_75ec9a0b_2182501.png "01_首页.png")
-
-![币币交易](https://images.gitee.com/uploads/images/2020/0327/135834_4a5fb1c4_2182501.png "02_币币交易.png")
-
-![法币交易](https://images.gitee.com/uploads/images/2020/0327/135902_a7286b9c_2182501.png "03_法币交易CTC.png")
-
-![登录](https://images.gitee.com/uploads/images/2020/0322/193759_edc5dc7b_2182501.png "图片5.png")
-
-![活动/创新实验室](https://images.gitee.com/uploads/images/2020/0327/135930_0c02d004_2182501.png "04_创新实验室.png")
-
-![创新实验室详情](https://images.gitee.com/uploads/images/2020/0327/140037_074a81a4_2182501.png "创新实验室详情.png")
-
-![推广合伙人](https://images.gitee.com/uploads/images/2020/0327/140003_9b962fe7_2182501.png "07_推广合伙人.png")
-
-![公告](https://images.gitee.com/uploads/images/2020/0322/193852_3ad12a6f_2182501.png "图片8.png")
-
-![帮助](https://images.gitee.com/uploads/images/2020/0322/193902_ef09925e_2182501.png "图片9.png")
-
-## 系统运行展示（APP前端）
-
-![首页](https://images.gitee.com/uploads/images/2020/0322/193927_9940ca7c_2182501.jpeg "图片10.jpg")
-
-![行情](https://images.gitee.com/uploads/images/2020/0322/193941_ff5a16a2_2182501.jpeg "图片11.jpg")
-
-![K线](https://images.gitee.com/uploads/images/2020/0322/193951_abf7b5b6_2182501.jpeg "图片12.jpg")
-
-![交易](https://images.gitee.com/uploads/images/2020/0322/194003_d14a772a_2182501.jpeg "图片13.jpg")
-
-![个人中心](https://images.gitee.com/uploads/images/2020/0322/194021_a047d3a5_2182501.jpeg "图片14.jpg")
-
-![个人资产管理](https://images.gitee.com/uploads/images/2020/0322/194059_faeeeb4a_2182501.jpeg "图片15.jpg")
-
-![邀请管理](https://images.gitee.com/uploads/images/2020/0322/194112_7ae11b00_2182501.jpeg "图片16.jpg")
-
-## 手机Web端部分页面
-
-![APP下载](https://images.gitee.com/uploads/images/2020/0325/130921_7d8dee06_2182501.jpeg "12.jpg")
-
-![抢红包](https://images.gitee.com/uploads/images/2020/0325/130936_18809c8f_2182501.jpeg "11.jpg")
-
-![活动/创新实验室](https://images.gitee.com/uploads/images/2020/0325/130948_e36b562d_2182501.jpeg "13.jpg")
-
-
-## 系统运行展示（后端）
-
-![登录](https://images.gitee.com/uploads/images/2020/0322/194251_9b5293ff_2182501.png "图片17.png")
-
-![首页](https://images.gitee.com/uploads/images/2020/0322/194305_f83e4f90_2182501.png "图片18.png")
-
-![用户管理](https://images.gitee.com/uploads/images/2020/0322/194321_73eb8f58_2182501.png "图片19.png")
-
-![邀请管理](https://images.gitee.com/uploads/images/2020/0322/194337_fd257186_2182501.png "图片20.png")
-
-![法币交易订单管理](https://images.gitee.com/uploads/images/2020/0322/194406_ebe7328d_2182501.png "图片21.png")
-
-![首页Banner管理](https://images.gitee.com/uploads/images/2020/0322/194433_4fb39b0a_2182501.png "图片22.png")
-
-![交易对管理](https://images.gitee.com/uploads/images/2020/0322/194450_1eb7bb6f_2182501.png "图片23.png")
-
-![活动管理](https://images.gitee.com/uploads/images/2020/0322/194505_204d23ce_2182501.png "图片24.png")
-
-![红包管理](https://images.gitee.com/uploads/images/2020/0322/194531_e12eb93a_2182501.png "图片25.png")
-
-![币种管理](https://images.gitee.com/uploads/images/2020/0322/194618_fe17409a_2182501.png "图片26.png")
-
-![OTC管理，后端开发完成，前端未对接](https://images.gitee.com/uploads/images/2020/0322/194654_bd0acbe7_2182501.png "图片27.png")
-
-## APP下载图片示例
-
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182826_f0617759_2182501.png "download1.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182834_7a82f8a8_2182501.png "download2.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182840_c3d08fb7_2182501.png "download3.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182850_8b19fe57_2182501.png "download4.png")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182856_9206a79a_2182501.png "download5.png")
-
-## 特别注意
-
-任何使用本源码从事商业活动，对别人和自己造成损失的，本人概不负责！
+This configuration will automatically update the database structure.
+ 
+##Core function description (client)
+ 
+- [x] 1. Registration / login / real name authentication / audit (currently only mobile phones are supported, and email can be added for secondary development, which is very simple)
+- [x] 2. Banner / announcement / help / customized page (banner supports separate setting of PC and app, and supports various classification modes)
+- [x] 3. Legal currency C2C transaction / legal currency OTC transaction (two legal currency modes are supported. The platform can exchange C2C legal currency in the early stage of the project and open OTC transaction in the later stage)
+- [x] 4. Currency currency transaction (limit price entrustment and market price entrustment are supported, and other entrustment modes can be added to secondary development)
+- [x] 5. Invite registration / promotion partners (support ranking statistics of invited promotion number and commission by day, week and month)
+- [x] 6. Innovation Laboratory (there are many supporting functions in this part, which are described separately. In addition, app does not fully support this function for the time being)
+ 
+> - [x] 6-1. Initial rush purchase activity mode (for example, when issuing new transaction pairs, you can set a certain number of currencies for rush purchase of transaction pairs)
+> - [x] 6-2. Initial allocation activity mode (for example, before issuing BTC / usdt transaction pairs, the official takes out 5btc for activities, and divides the BTC equally according to the amount of usdt charged by the user)
+> - [x] 6-3. Market control rush purchase mode (this mode can be used if the price of zzz currency is 5usdt and the official issuance activity price is 0.5usdt before issuing zzz / usdt transaction pairs)
+> - [x] 6-4. Control panel sharing mode (e.g. 6-3, but average distribution)
+> - [x] 6-5. Mining machine activity mode (support the user to mortgage a certain amount of currency, and the official promises to return a certain amount of currency every month)
+ 
+- [x] 7. Red envelope function (it supports the platform and the official issuance of red envelopes in a certain amount of currencies. This function is suitable for users)
+- [x] 8. User asset management, flow management, entrustment management, real name management and other basic management
+ 
+ 
+##Core function description (management end)
+ 
+- [x] 1. Summary (view platform operation data, including transaction volume, number of registrants, recharge, etc.)
+- [x] 2. Member management (member information management, member real name audit, member real name management, member balance management, member recharge / freeze balance, etc.)
+- [x] 3. Invitation Management (member invitation information, member invitation ranking management)
+- [x] 4. CTC Management (CTC order management, flow management and acceptor Management)
+- [x] 5. Content management (PC advertising management, APP advertising management, announcement management, help management)
+- [x] 6. Financial management (recharge and withdrawal management, financial flow management, reconciliation management, currency wallet balance management)
+- [x] 7. Currency management (new transaction pair, manage transaction pair, new transaction robot, set parameters of transaction robot, set quotation engine / transaction engine, cancel all entrustments)
+- [x] 8. Activity management (new activities, mining machine subscription, rush purchase / partition management)
+- [x] 9. Red envelope Management (platform red envelope management, user red envelope Management)
+- [x] 10. Management of currency, management of role, management of user, management of version, management of system
+- [x] 11. Margin management (this function is considered in design, but not used during actual operation)
+- [x] 12. OTC Management (advertising management, order management, OTC currency management, surrender management, etc. this function has not been verified by actual operation)
+ 
+##About blockchain wallet docking
+ 
+The project provides two wallet docking methods: one is self built node + blockchain browser, and the other is third-party wallet docking.If you want to use self built nodes or blockchain browsers, you can use 00 directly_The code in the framework can be compiled.If you want to use a third-party wallet docking, you can download 07_Uduncloud folder project files of Youdun wallet, copy them to 00_In the framework.
+ 
+After you get the code, you may not connect the blockchain node during the debugging and operation of the project, which will not have a great impact;Even if the blockchain node is not connected, you can deploy a trading platform with matching trading function (only the user cannot recharge through the wallet address).
+ 
+When you become familiar with the whole system and have a certain basic reserve of blockchain operation principle, node construction and blockchain browser, you can start * * 01_wallet_Research the items in the RPC * * folder.Each currency corresponds to different data access methods. The wallet operation methods of most blockchain projects are the same or very similar, such as BTC, LTC, BCH, BSV, BCD and other bitcoin derivative currencies, and their API operation methods are almost the same;Another example is eth. When you master the operation of a contract currency, the operation methods of other digital currencies issued based on eth are almost the same.So basically, when you take the time to understand one, you understand a bunch of currencies.
+ 
+The wallet operation schemes used in this project are also different, and different usages are shown as far as possible:
+- For example, BTC and usdt use self built full nodes, which now require almost 300g of hard disk space;
+- For example, ETH uses self built light nodes ([reference article]（https://www.cnblogs.com/bizzan/p/11341713.html））, because the whole node needs too much hard disk space;
+- For example, BCH and BSV use the third-party blockchain browser to obtain data;
+- For example, XRP has officially provided an interface for accessing block data ([ripple API GitHub address]（https://github.com/ripple/ripple-lib/)）
+ 
+Generally speaking, when the amount of funds in and out of the exchange is small, you can explore by yourself, but when the amount of funds in the exchange is large, if you are not confident about your wallet operation, you can also use the wallet service of a third party. Of course, this requires you to negotiate with the wallet service provider and pay an annual fee or something.
+ 
+The following figure is a brief description of the user recharge monitoring logic. Just take a simple look:
+ 
+![recharge logic]（https://images.gitee.com/uploads/images/2020/0327/162223_5d418523_2182501.png "13981024-76374161aedf70d6.png")
+![system background]![system background] (PIC / 6. PNG)
+![agent background]![agent background]![enter picture description] (PIC /% E4% BB% A3% E7% 90% 86% E5% 90% 8e% E5% 8F% B0. PNG)
+ 
+##Special attention
+ 
+I am not responsible for any loss caused to others and myself by using this source code in commercial activities!
+ 
+##For other related product demonstrations, please contact
+![product demo]![product demo]![product demonstration] (PIC / product / 20216091. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160910. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160911. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160912. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160913. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160914. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160915. JPG)
+![product demo]![Demo product]![product demonstration] (PIC / product / 202160916. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160917. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160918. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160919. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 20216092. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160920. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160921. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160922. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160923. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160924. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160925. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160926. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160927. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160928. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160929. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 20216093. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160930. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160931. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 202160932. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 20216094. JPG)
+![product demo]![product demo]![product demo. JP]
+![product demo]![product demo]![product demonstration] (PIC / product / 20216095. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 20216096. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 20216097. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 20216098. JPG)
+![product demo]![product demo]![product demonstration] (PIC / product / 20216099. JPG)
+ 
