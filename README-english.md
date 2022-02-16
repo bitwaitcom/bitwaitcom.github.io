@@ -4,6 +4,7 @@
 ###  [http://bizzan.org/](http://bizzan.org/）(please do your own science)
 ## Back end & agent back end & other versions & quantitative merchandising system & niuren merchandising system, please contact
 Add my QQ: 2098401701 to get more demonstrations: Airplane: @ bitwait click star to report the number of stars. You can apply for admission
+![输入图片说明](pic/IMG_1289(20220216-152140).JPG)
 Group, administrators provide free technical advice and basic version source code information
 The basic version only provides technical communication. If you need another function, you can contact the team for UI customization. More finished product demonstrations are at the bottom of the details
 ## Erc20 tokens issued based on eth can be referred to:
