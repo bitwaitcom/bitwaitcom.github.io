@@ -1,0 +1,2509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots />
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+          <root url="file://$MODULE_DIR$/target/generated-sources/java" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="Hibernate" />
+        <datasource-mapping>
+          <factory-entry name="entityManagerFactory" />
+        </datasource-mapping>
+        <naming-strategy-map />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.19.RELEASE/spring-boot-autoconfigure-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.19.RELEASE/spring-boot-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.22.RELEASE/spring-core-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.22.RELEASE/spring-aop-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.22.RELEASE/spring-beans-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/4.3.22.RELEASE/spring-expression-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/querydsl/querydsl-apt/4.1.3/querydsl-apt-4.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/querydsl/querydsl-codegen/4.1.3/querydsl-codegen-4.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/querydsl/querydsl-core/4.1.4/querydsl-core-4.1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/mysema/commons/mysema-commons-lang/0.2.4/mysema-commons-lang-0.2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/mysema/codegen/codegen/0.6.8/codegen-0.6.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/core/compiler/ecj/4.3.1/ecj-4.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/reflections/reflections/0.9.9/reflections-0.9.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.23/mysql-connector-java-8.0.23.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/cn/afterturn/easypoi-web/3.0.3/easypoi-web-3.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.22.RELEASE/spring-webmvc-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/cn/afterturn/easypoi-base/3.0.3/easypoi-base-3.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.15/poi-3.15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.15/poi-ooxml-3.15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml-schemas/3.15/poi-ooxml-schemas-3.15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/cn/afterturn/easypoi-annotation/3.0.3/easypoi-annotation-3.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.2.2/shiro-spring-1.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2/commons-collections-3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.2.2/shiro-web-1.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/transport/5.3.3/transport-5.3.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.4.6/elasticsearch-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/5.5.4/lucene-core-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-backward-codecs/5.5.4/lucene-backward-codecs-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-analyzers-common/5.5.4/lucene-analyzers-common-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queries/5.5.4/lucene-queries-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-memory/5.5.4/lucene-memory-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-highlighter/5.5.4/lucene-highlighter-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-join/5.5.4/lucene-join-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queryparser/5.5.4/lucene-queryparser-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-sandbox/5.5.4/lucene-sandbox-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-suggest/5.5.4/lucene-suggest-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-misc/5.5.4/lucene-misc-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-grouping/5.5.4/lucene-grouping-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial/5.5.4/lucene-spatial-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial3d/5.5.4/lucene-spatial3d-5.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/spatial4j/spatial4j/0.5/spatial4j-0.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/securesm/1.0/securesm-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/carrotsearch/hppc/0.7.1/hppc-0.7.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.8.11/jackson-dataformat-smile-2.8.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.11/jackson-dataformat-yaml-2.8.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.8.11/jackson-dataformat-cbor-2.8.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/ning/compress-lzf/1.0.2/compress-lzf-1.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/tdunning/t-digest/3.0/t-digest-3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/hdrhistogram/HdrHistogram/2.1.6/HdrHistogram-2.1.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/transport-netty3-client/5.3.3/transport-netty3-client-5.3.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/transport-netty4-client/5.3.3/transport-netty4-client-5.3.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.7.Final/netty-buffer-4.1.7.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.7.Final/netty-codec-4.1.7.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.7.Final/netty-codec-http-4.1.7.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.7.Final/netty-common-4.1.7.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.7.Final/netty-handler-4.1.7.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.7.Final/netty-resolver-4.1.7.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.7.Final/netty-transport-4.1.7.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/reindex-client/5.3.3/reindex-client-5.3.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/rest/5.3.3/rest-5.3.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.10/httpcore-nio-4.4.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/lang-mustache-client/5.3.3/lang-mustache-client-5.3.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/github/spullara/mustache/java/compiler/0.9.3/compiler-0.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/percolator-client/5.3.3/percolator-client-5.3.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/1.5.19.RELEASE/spring-boot-starter-test-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.19.RELEASE/spring-boot-test-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test-autoconfigure/1.5.19.RELEASE/spring-boot-test-autoconfigure-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.22.RELEASE/spring-test-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/1.1.8.RELEASE/spring-kafka-1.1.8.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/4.3.22.RELEASE/spring-messaging-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/retry/spring-retry/1.2.3.RELEASE/spring-retry-1.2.3.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.2.2/kafka-clients-0.10.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.5.6/httpmime-4.5.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/json/json/20140107/json-20140107.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/1.5.19.RELEASE/spring-boot-starter-web-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/1.5.19.RELEASE/spring-boot-starter-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-logging/1.5.19.RELEASE/spring-boot-starter-logging-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-tomcat/1.5.19.RELEASE/spring-boot-starter-tomcat-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.37/tomcat-embed-core-8.5.37.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-annotations-api/8.5.37/tomcat-annotations-api-8.5.37.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/8.5.37/tomcat-embed-el-8.5.37.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.37/tomcat-embed-websocket-8.5.37.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/5.3.6.Final/hibernate-validator-5.3.6.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/1.5.19.RELEASE/spring-boot-configuration-processor-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-jpa/1.5.19.RELEASE/spring-boot-starter-data-jpa-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-aop/1.5.19.RELEASE/spring-boot-starter-aop-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/1.5.19.RELEASE/spring-boot-starter-jdbc-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-jdbc/8.5.37/tomcat-jdbc-8.5.37.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-juli/8.5.37/tomcat-juli-8.5.37.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.22.RELEASE/spring-jdbc-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.22.RELEASE/spring-tx-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.18.RELEASE/spring-data-jpa-1.11.18.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.18.RELEASE/spring-data-commons-1.13.18.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.22.RELEASE/spring-orm-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aspects/4.3.22.RELEASE/spring-aspects-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/aliyun-java-sdk-dm/3.1.0/aliyun-java-sdk-dm-3.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/spark-core-2.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.75/fastjson-1.2.75.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/aliyun-java-sdk-core/4.5.3/aliyun-java-sdk-core-4.5.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/ini4j/ini4j/0.5.4/ini4j-0.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentracing/opentracing-util/0.33.0/opentracing-util-0.33.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentracing/opentracing-noop/0.33.0/opentracing-noop-0.33.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.3.5.RELEASE/spring-session-1.3.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/1.4.7.RELEASE/spring-cloud-starter-netflix-eureka-client-1.4.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/1.3.0.RELEASE/spring-cloud-starter-1.3.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/1.3.0.RELEASE/spring-cloud-context-1.3.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/4.2.11.RELEASE/spring-security-crypto-4.2.11.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.3.0.RELEASE/spring-cloud-commons-1.3.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-rsa/1.0.3.RELEASE/spring-security-rsa-1.0.3.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.0.RELEASE/spring-cloud-netflix-core-1.4.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.0.RELEASE/spring-cloud-netflix-eureka-client-1.4.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.7.0/eureka-client-1.7.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jettison/jettison/1.3.7/jettison-1.3.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-eventbus/0.3.0/netflix-eventbus-0.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-infix/0.3.0/netflix-infix-0.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/archaius/archaius-core/0.7.4/archaius-core-0.7.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.5/commons-lang-2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math/2.2/commons-math-2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.19.1/jersey-core-1.19.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.1.0/guice-4.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.7.0/eureka-core-1.7.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-archaius/1.4.0.RELEASE/spring-cloud-starter-netflix-archaius-1.4.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/1.4.7.RELEASE/spring-cloud-starter-netflix-ribbon-1.4.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon/2.2.4/ribbon-2.2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.2.4/ribbon-core-2.2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-transport/2.2.4/ribbon-transport-2.2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.4/ribbon-loadbalancer-2.2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-httpclient/2.2.4/ribbon-httpclient-2.2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-eureka/2.2.4/ribbon-eureka-2.2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/jexcelapi/jxl/2.6.10/jxl-2.6.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-fileupload/commons-fileupload/1.3/commons-fileupload-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.2/commons-io-2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/1.5.19.RELEASE/spring-boot-starter-data-redis-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-keyvalue/1.2.18.RELEASE/spring-data-keyvalue-1.2.18.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-oxm/4.3.22.RELEASE/spring-oxm-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.22.RELEASE/spring-context-support-4.3.22.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.1/jedis-2.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.3/commons-pool2-2.4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/querydsl/querydsl-jpa/4.1.3/querydsl-jpa-4.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-ehcache/1.2.2/shiro-ehcache-1.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/net/sf/ehcache/ehcache-core/2.5.0/ehcache-core-2.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-mongodb/1.5.19.RELEASE/spring-boot-starter-data-mongodb-1.5.19.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.4.3/mongodb-driver-3.4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.4.3/mongodb-driver-core-3.4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.4.3/bson-3.4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.10.18.RELEASE/spring-data-mongodb-1.10.18.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/oss/aliyun-sdk-oss/2.8.1/aliyun-sdk-oss-2.8.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/jdom/jdom/1.1/jdom-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:1.4.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter:1.3.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-context:1.3.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:4.2.11.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-rsa:1.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.55" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.55" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.netflix.eureka:eureka-client:1.7.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.jettison:jettison:1.3.7" level="project" />
+    <orderEntry type="library" name="Maven: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-eventbus:0.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-infix:0.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-jxpath:commons-jxpath:1.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.antlr:antlr-runtime:3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-math:2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.netflix.archaius:archaius-core:0.7.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.ws.rs:jsr311-api:1.1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.servo:servo-core:0.10.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.servo:servo-internal:0.10.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey:jersey-core:1.19.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey:jersey-client:1.19.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey.contribs:jersey-apache-client4:1.19.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.inject:guice:4.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.netflix.eureka:eureka-core:1.7.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.xml.stream:stax-api:1.0-2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: commons-configuration:commons-configuration:1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.netflix.ribbon:ribbon:2.2.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.ribbon:ribbon-transport:2.2.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.reactivex:rxnetty-contexts:0.4.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.reactivex:rxnetty-servo:0.4.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.hystrix:hystrix-core:1.5.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.reactivex:rxnetty:0.4.9" level="project" />
+    <orderEntry type="library" name="Maven: com.netflix.ribbon:ribbon-core:2.2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.netflix.ribbon:ribbon-httpclient:2.2.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-commons-util:0.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-statistics:0.1.1" level="project" />
+    <orderEntry type="library" name="Maven: io.reactivex:rxjava:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: com.netflix.ribbon:ribbon-eureka:2.2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.thoughtworks.xstream:xstream:1.4.9" level="project" />
+    <orderEntry type="library" name="Maven: xmlpull:xmlpull:1.1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: xpp3:xpp3_min:1.1.4c" level="project" />
+    <orderEntry type="library" name="Maven: org.elasticsearch:elasticsearch:2.4.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-backward-codecs:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queries:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-memory:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-highlighter:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queryparser:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-sandbox:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-suggest:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-misc:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-join:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-grouping:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-spatial:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-spatial3d:5.5.4" level="project" />
+    <orderEntry type="library" name="Maven: com.spatial4j:spatial4j:0.5" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" name="Maven: org.elasticsearch:securesm:1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.carrotsearch:hppc:0.7.1" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.9.9" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.11" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.11" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.11" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.17" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty:3.10.6.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.ning:compress-lzf:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.tdunning:t-digest:3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.hdrhistogram:HdrHistogram:2.1.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter:jsr166e:1.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.elasticsearch.client:transport:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.elasticsearch.plugin:transport-netty3-client:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.elasticsearch.plugin:transport-netty4-client:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.7.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.7.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.7.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.7.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.7.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.7.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.7.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.elasticsearch.plugin:reindex-client:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.elasticsearch.client:rest:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.elasticsearch.plugin:lang-mustache-client:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: com.github.spullara.mustache.java:compiler:0.9.3" level="project" />
+    <orderEntry type="library" name="Maven: org.elasticsearch.plugin:percolator-client:5.3.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path:2.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.minidev:json-smart:2.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:5.0.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:2.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:1.10.19" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-library:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.skyscreamer:jsonassert:1.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.boot:spring-boot-starter-web:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.37" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat:tomcat-annotations-api:8.5.37" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.37" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.37" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.hibernate:hibernate-validator:5.3.6.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml:classmate:1.3.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.aspectj:aspectjweaver:1.8.13" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat:tomcat-jdbc:8.5.37" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat:tomcat-juli:8.5.37" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-jdbc:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.hibernate:hibernate-core:5.0.12.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.javassist:javassist:3.21.0-GA" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss:jandex:2.0.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: dom4j:dom4j:1.6.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.hibernate:hibernate-entitymanager:5.0.12.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.transaction:javax.transaction-api:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.data:spring-data-jpa:1.11.18.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.13.18.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-orm:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-aspects:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.session:spring-session:1.3.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-mongodb:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver:3.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-core:3.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:bson:3.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-mongodb:1.10.18.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-redis:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-redis:1.8.18.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-keyvalue:1.2.18.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-oxm:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context-support:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: redis.clients:jedis:2.9.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.kafka:spring-kafka:1.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.3.22.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.retry:spring-retry:1.2.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.kafka:kafka-clients:0.10.2.2" level="project" />
+    <orderEntry type="library" name="Maven: net.jpountz.lz4:lz4:1.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.1.2.6" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="Maven: com.aliyun.oss:aliyun-sdk-oss:2.8.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.jdom:jdom:1.1" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.5" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: com.aliyun:aliyun-java-sdk-core:4.5.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.10" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.3" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:javax.activation-api:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jacoco:org.jacoco.agent:runtime:0.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.ini4j:ini4j:0.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-api:0.33.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-util:0.33.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-noop:0.33.0" level="project" />
+    <orderEntry type="library" name="Maven: com.aliyun:aliyun-java-sdk-dm:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.23" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.11.4" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.sparkframework:spark-core:2.6.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/spark-core-2.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.16" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.75" level="project" />
+    <orderEntry type="library" name="Maven: com.mashape.unirest:unirest-java:1.4.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20140107" level="project" />
+    <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.querydsl:querydsl-apt:4.1.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.querydsl:querydsl-codegen:4.1.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.mysema.codegen:codegen:0.6.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.eclipse.jdt.core.compiler:ecj:4.3.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.reflections:reflections:0.9.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.findbugs:annotations:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.querydsl:querydsl-jpa:4.1.3" level="project" />
+    <orderEntry type="library" name="Maven: com.querydsl:querydsl-core:4.1.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:1.3.9" level="project" />
+    <orderEntry type="library" name="Maven: com.mysema.commons:mysema-commons-lang:0.2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.infradna.tool:bridge-method-annotation:1.13" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: cn.afterturn:easypoi-base:3.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi:3.15" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-collections4:4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml:3.15" level="project" />
+    <orderEntry type="library" name="Maven: com.github.virtuald:curvesapi:1.04" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml-schemas:3.15" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: cn.afterturn:easypoi-web:3.0.3" level="project" />
+    <orderEntry type="library" name="Maven: cn.afterturn:easypoi-annotation:3.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:1.5.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-spring:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-core:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-web:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-ehcache:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache-core:2.5.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-httpclient:commons-httpclient:3.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Maven: net.sourceforge.jexcelapi:jxl:2.6.10" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.12.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.1" level="project" />
+  </component>
+</module>
