@@ -6,7 +6,7 @@
 ### [http://bizzan.org/](http://bizzan.org/)  (请自行科学)
 
 ## 后端 & 代理商后台 &其他版本 &量化跟单系统&牛人跟单系统 请联系
-添加本人 QQ:2098401701 获取更多演示  :airplane:  @bitwait 点star报star数可以申请进群，管理员提供免费技术咨询和基础版本源码资料
+添加本人 QQ:2098401701 获取更多演示  :airplane:  @bitwait 点star报star数 https://img.shields.io/github/stars/bitwaitcom/BitExchange.svg?style=social 可以申请进群，管理员提供免费技术咨询和基础版本源码资料
 ![输入图片说明](pic/qun236585361.png)
 基础版本只提供技术交流，如需另外功能二开，界面UI定制可联系团队，更多成品演示在详情最下方
 
