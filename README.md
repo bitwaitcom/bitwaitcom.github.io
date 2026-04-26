@@ -15,6 +15,15 @@
 [https://gitee.com/bitwait/ether-erc20](https://gitee.com/bitwait/ether-erc20)  
 收集了431个基于以太坊发行的ERC20代币源码，基本上能找到各种业务模型的ERC20代币业务模型
 
+## 2026/04/22 Rust 全量重构版更新公示：
+- **高性能 Rust 后端重构**：推出 `bitwait-miao-framework-rust`，采用 Rust 语言对核心微服务（网关、撮合、行情、钱包、用户中心）进行全量重构
+- **极致性能与安全**：利用 Rust 的内存安全特性与零成本抽象，显著降低撮合延迟与内存占用，提升系统在高并发场景下的稳定性
+- **灰度发布能力**：内置 `rust-gateway` 灰度网关，支持按服务维度的百分比灰度（Percent-based）与白名单灰度（Whitelist-based），实现 Java 栈向 Rust 栈的平滑迁移
+- **微服务架构优化**：
+  - **Service Runtime**：统一的服务运行基座，内置标准化的健康检查（/health）与元数据导出
+  - **Proxy Runtime**：针对核心接口的真实代理运行时，支持请求拦截与协议转换
+- **隔离部署**：支持与 Java 版后端并行运行，统一部署至 `/opt/bitwait-rust`，容器化管理更加清晰
+
 ## 2026/03/16 稳定版更新公示：
 - 复刻 OKX 欧意（更新至 v6.15 版本，与官方当前版本保持同步）
 - 新增 **星球群聊**功能：参照 OKX v6.15 社区板块，支持加入/创建星球群组、群内实时消息、成员管理与消息通知，完整复刻官方群聊交互体验
@@ -298,10 +307,11 @@ Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便
 
 ## 关于技术构成
 
-- 后端：Spring、SpringMVC、SpringData、SpringCloud、SpringBoot
+- 后端 (Java)：Spring、SpringMVC、SpringData、SpringCloud、SpringBoot
+- 后端 (Rust 高性能版)：Tokio (异步运行时)、Axum/Tonic (Web/gRPC 框架)、SQLx (异步数据库)、Redis-rs
 - 数据库：Mysql、Mongodb
 - 其他：redis、kafka、阿里云OSS、腾讯防水校验
-- 前端：Vue、iView、less
+- 前端：Vue、iView、less、Flutter (移动端)
 
 ## 实际演示网站
 

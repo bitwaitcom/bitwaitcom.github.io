@@ -10,6 +10,15 @@ The basic version only provides technical communication. If you need another fun
 ## Erc20 tokens issued based on eth can be referred to:
 [https://gitee.com/bitwait/ether-erc20](https://gitee.com/bitwait/ether-erc20) 
 431 erc20 token source codes based on Ethereum are collected. Basically, erc20 token business models of various business models can be found
+## April 22, 2026: High-Performance Rust Reconstruction Update
+- **Full Rust Backend Reconstruction**: Introducing `bitwait-miao-framework-rust`, a complete rewrite of core microservices (Gateway, Matching Engine, Market Data, Wallet, User Center) in Rust.
+- **Extreme Performance & Safety**: Leverages Rust's memory safety and zero-cost abstractions to drastically reduce matching latency and memory footprint, enhancing stability under high-concurrency scenarios.
+- **Gray Deployment Capabilities**: Features `rust-gateway` with support for service-level gray routing (Percent-based and Whitelist-based), enabling smooth migration from Java to Rust stack.
+- **Microservices Architecture Optimization**:
+  - **Service Runtime**: A unified service foundation with standardized health checks (/health) and metadata export.
+  - **Proxy Runtime**: Real proxy runtime for critical interfaces, supporting request interception and protocol transformation.
+- **Isolated Deployment**: Runs concurrently with the Java version, deployed in `/opt/bitwait-rust` with clear containerized management.
+
 ## Updated publicity of stable version on January 12, 2026
 - Added Flutter build flavors for OKX and Binance mobile 1:1 replicas (flavors: okx, binance, classic)
 ![OKX/Binance Flutter Replica Demo](pic/okx_binance_demo.gif)
@@ -219,10 +228,11 @@ In addition, if the project party or the exchange decides to issue 10000 AAA at 
 **Summary**
 In short, the system supports highly customized matching mode. At the same time, you can also develop your own matching transaction mode by modifying the matching logic in the exchange project.
 ## About technical composition
--  Back end: spring, spring MVC, spring data, spring cloud, spring boot
--  Database: MySQL, mongodb
--  Others: redis, Kafka, Alibaba cloud OSS, Tencent
--  Front end: Vue, iView, less
+-  Backend (Java): Spring, Spring MVC, Spring Data, Spring Cloud, Spring Boot
+-  Backend (Rust Performance): Tokio (Async Runtime), Axum/Tonic (Web/gRPC), SQLx (Async DB), Redis-rs
+-  Database: MySQL, MongoDB
+-  Others: Redis, Kafka, Alibaba Cloud OSS, Tencent
+-  Frontend: Vue, iView, less, Flutter (Mobile)
 ## Actual demo site
 [https://www.bizzan.org](https://www.bizzan.org)
 This is for the customer, but later the customer didn&apos;t operate, so I left this website. Because I don&apos;t have server permission, this website may not be accessible at any time.
