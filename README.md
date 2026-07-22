@@ -2,6 +2,16 @@
 币严-ztuo-币位-币久-猫力-景蓝-bizzan-okex-huobi-gate
 # 开源代码仅供参考学习，请勿用于非法用途；
 
+## 2026 OKX / 欧易 Web、Android 与 H5 演示构建
+
+[![OKX Exchange Release](https://img.shields.io/github/v/release/kuuliaocom/okx-exchange?display_name=tag&sort=semver)](https://github.com/kuuliaocom/okx-exchange/releases/latest)
+[![OKX Exchange Stars](https://img.shields.io/github/stars/kuuliaocom/okx-exchange?style=social)](https://github.com/kuuliaocom/okx-exchange/stargazers)
+
+- 项目主页：[OKX Exchange Demo Builds](https://github.com/kuuliaocom/okx-exchange)
+- 编译版本下载：[Vue 3.5 Web、Flutter Android APK、Flutter H5](https://github.com/kuuliaocom/okx-exchange/releases/latest)
+- 演示内容：现货/合约交易、P2P、K 线与盘口、资产管理、策略、移动端和管理后台视频
+- 发布仓库仅包含编译产物与演示媒体，不包含应用源码，且与 OKX 官方无隶属或授权关系
+
 ## 运行演示  
 ### [http://bizzan.org/](http://bizzan.org/)  (请自行科学)
 
